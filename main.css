@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+body {
+    animation-name: sss;
+    animation-duration: 10s;
+}
+@keyframes sss {
+    from {
+        background-color: aliceblue;
+    }
+    to {
+        background-color: antiquewhite;
+    }
+}
+.box {
+    position: absolute;
+    top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-play-state: ease;
+    animation-fill-mode: both;
+}
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+        position: absolute;
+        left: 0;
+        background-color: aqua;
+    }
+    10% {
+        transform: rotate(90deg);
+        position: absolute;
+        left: 100px;
+        background-color: blue;
+    }
+    20% {
+        transform: rotate(180deg);
+        position: absolute;
+        left: 200px;
+        background-color: blueviolet;
+    }
+    30% {
+        transform: rotate(270deg);
+        position: absolute;
+        left: 300px;
+        background-color: brown;
+    }
+    40% {
+        transform: rotate(360deg);
+        position: absolute;
+        left: 400px;
+        background-color: yellow;
+    }
+    50% {
+        transform: rotate(450deg);
+        position: absolute;
+        left: 500px;
+        background-color: turquoise;
+    }
+    60% {
+        transform: rotate(540deg);
+        position: absolute;
+        left: 600px;
+        background-color: tomato;
+    }
+    70% {
+        transform: rotate(630deg);
+        position: absolute;
+        left: 700px;
+        background-color: salmon;
+    }
+    80% {
+        transform: rotate(720deg);
+        position: absolute;
+        left: 800px;
+        background-color: red;
+    }
+    90% {
+        transform: rotate(810deg);
+        position: absolute;
+        left: 900px;
+        background-color: steelblue;
+    }
+    100% {
+        transform: rotate(900deg);
+        position: absolute;
+        left: 1000px;
+        background-color: cyan;
+    }
+}
